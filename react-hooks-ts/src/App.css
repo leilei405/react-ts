@@ -1,0 +1,14 @@
+/*  全局样式 */
+
+
+html {
+  /* rem: 相对于父元素的font-size */
+  /* em： 相对根元素html 的font-size， r 就是root的意思 */
+  /* 浏览器默认 是  16px  */
+  /* 16 * 62.5% === 10px */
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+html body #root .App {
+  min-height: 100vh;
+}
